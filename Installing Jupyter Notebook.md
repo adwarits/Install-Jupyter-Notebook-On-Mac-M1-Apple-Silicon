@@ -70,3 +70,24 @@ pip install wrapt flatbuffers tensorflow_estimator google_pasta keras_preprocess
 
 pip install --upgrade -t "tf_2_4/lib/python3.8/site-packages/" --no-dependencies --force "$libs/tensorflow_macos-0.1a3-cp38-cp38-macosx_11_0_arm64.whl"
 
+## 4. Install and Open Jupyter Notebook
+
+- Type "Conda Install Notebook" to install Jupyter Notebook
+- Type "Jupyter Notebook" to open Jupyter Notebook (Jupyter Notebook should be opened in browser at this time)
+
+## 5. Install Pandas and Seaborn
+
+- In the Jupyter Notebook type "Conda Install Pandas"
+- After that type "Conda Install Seaborn"
+- Restart the Jupyter Notebook
+
+## 6. Open Jupyter Notebook
+
+- To use Jupyter Notebook, first open again the terminal
+- Type "conda activate python38"
+- Type "jupyter notebook" and enter. At this time, your jupyter notebook should be opened
+
+## 7. Delete Downloaded Files
+
+- Go to download folder from files
+- Delete Miniforge 3 and TensorFlow Installation packages
